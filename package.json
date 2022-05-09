@@ -1,8 +1,7 @@
 {
-    "name": "berry-material-react-free",
-    "version": "3.0.1",
+    "name": "reactprojet",
+    "version": "0.1.0",
     "private": true,
-    "homepage": "https://client.allcine227.com",
     "dependencies": {
         "@emotion/cache": "^11.4.0",
         "@emotion/react": "^11.4.0",
@@ -49,27 +48,25 @@
         "eject": "react-scripts eject"
     },
     "eslintConfig": {
-        "extends": [
-            "react-app"
-        ]
-    },
-    "babel": {
-        "presets": [
-            "@babel/preset-react"
-        ]
+      "extends": [
+        "react-app",
+        "react-app/jest"
+      ]
     },
     "browserslist": {
-        "production": [
-            ">0.2%",
-            "not dead",
-            "not op_mini all"
-        ],
-        "development": [
-            "last 1 chrome version",
-            "last 1 firefox version",
-            "last 1 safari version"
-        ]
+      "production": [
+        ">0.2%",
+        "not dead",
+        "not op_mini all"
+      ],
+      "development": [
+        "last 1 chrome version",
+        "last 1 firefox version",
+        "last 1 safari version"
+      ]
     },
+
+
     "devDependencies": {
         "@babel/core": "^7.14.8",
         "@babel/eslint-parser": "^7.15.8",
